@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+
+#slider button.slick-arrow::before{
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  background-color: #04060a !important;
+  /* display: inline; */
+  margin-left: -18px;
+
+}
+#slider button.slick-arrow{
+  margin-left: 24px;
+
+  z-index: 123456 !important;
+
+}
